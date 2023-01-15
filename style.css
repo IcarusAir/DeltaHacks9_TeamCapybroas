@@ -48,7 +48,7 @@
 }
 .name{
     font-family: 'Monoton', cursive;
-    color: #e56cb5;
+    color: #e890ed;
     text-align: center;
     -webkit-text-stroke: 1px;
 }
@@ -145,8 +145,8 @@
 .container .card{
     position:relative;
     max-width:300px;
-    height: 215px;
-    background-color: rgb(133, 161, 141);
+    height: 320px;
+    background-color: rgb(148, 187, 159);
     margin:30px 10px;
     padding:20px 15px;
     display: flex;
@@ -160,15 +160,12 @@
 .container .card .imgBx{
     position: relative;
     width: 260px;
-    height:260px;
-    top:-60px;
-    left:20px;
+    height:300px;
+    transform: translate(10%,0%);
     z-index: 1;
-    box-shadow: 0 5px 20px rgba(0, 0, 0, 0, 0.2);
-}
-.container .card .imgBx .img{
-    max-width:100%;
-    border-radius:4px;
+    box-shadow: 0 5px 20px rgba(5, 5, 5, 5, 0.2);
+    text-indent: 27%;
+    text-align: left;
 }
 .container .card .content{
     position: relative;
@@ -222,7 +219,7 @@ html {
 }
 
 body{
-    background-color: rgb(109, 145, 194);
+    background-color: rgb(91, 161, 230);
     color: var(--clr-ptext);
     margin:0;
     font-family: var(--ff-primary);
@@ -425,7 +422,7 @@ header{
 .footer{
     background-color: black;
     color: var(--clr-ptext);
-    border-top: 1px solid #3BBA9C;
+    border-top: 1px solid #3ba9ba;
     padding: 20px 0;
     font-family: var(--ff-secondary);
     text-align: center;
